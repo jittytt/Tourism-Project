@@ -1,0 +1,9 @@
+#login-wrapper {
+    width: 500px;
+    background-color: #ffffff54;
+}
+
+.login-signup-btn {
+    width: fit-content;
+    font-weight: bolder;
+}

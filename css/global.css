@@ -1,0 +1,41 @@
+body:not([class=districts]) {
+    background-image: url('../assets/home page.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body.districts {
+    background: rgba(215, 228, 244, 0.6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav.districts {
+    background: rgb(215, 228, 244);
+    background: linear-gradient(90deg, rgba(215, 228, 244, 1) 16%, rgba(173, 208, 238, 1) 71%, rgba(103, 162, 206, 1) 93%);
+
+}
+
+
+main {
+    margin-top: 87px;
+    min-height: calc(100vh - 145px);
+}
+
+.card .card-img-top {
+    height: 30vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0 !important;
+}
+
+.nav-link i {
+    font-size: large;
+}
